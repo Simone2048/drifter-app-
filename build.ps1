@@ -24,6 +24,7 @@ $buildArgs = @(
     "--name", "Drifter",
     "--clean",
     "--noconfirm",
+    "--noupx",
     "main.py"
 )
 python -m PyInstaller @buildArgs
