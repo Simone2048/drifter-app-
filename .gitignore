@@ -1,0 +1,18 @@
+# Build artifacts
+build/
+dist/
+*.spec
+__pycache__/
+*.pyc
+
+# Compiled binary (use GitHub Releases instead)
+Drifter.exe
+site/downloads/Drifter.exe
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
