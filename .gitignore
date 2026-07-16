@@ -5,9 +5,8 @@ dist/
 __pycache__/
 *.pyc
 
-# Compiled binary (use GitHub Releases instead)
-Drifter.exe
-site/downloads/Drifter.exe
+# Compiled binary (root only — docs/downloads is for distribution)
+/Drifter.exe
 
 # IDE
 .vscode/
