@@ -178,7 +178,20 @@
     font-size: 13px; color: var(--text-muted); text-align: center;
   }
 
+  /* Responsive Media Queries */
   @media (max-width: 768px) {
+    /* Prevent header elements from wrapping or crowding on mobile screens */
+    .logo span { 
+      display: none; /* Hides "· time scheduling" */
+    }
+    nav a:not(.btn) { 
+      display: none; /* Hides "Features", "How it works", and "Pricing" links */
+    }
+    nav a.btn { 
+      margin-left: 0; /* Align button right without extra layout margins */
+    }
+
+    /* Core grid/flex wraps for mobile */
     .features-grid, .steps { grid-template-columns: 1fr; }
     .showcase { flex-direction: column; gap: 32px; }
     #hero h1 { font-size: 36px; }
